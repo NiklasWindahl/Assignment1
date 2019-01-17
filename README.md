@@ -12,5 +12,5 @@ CREATE TABLE `sqlandjava`.`people` (
      INSERT INTO `sqlandjava`.`people` (`person_id`, `firstname`, `lastname`) VALUES ('4', 'David', 'Druid');
      INSERT INTO `sqlandjava`.`people` (`person_id`, `firstname`, `lastname`) VALUES ('5', 'user', 'password');
      
-     CREATE USER super@localhost IDENTIFIED BY 'password';
+     CREATE USER user@localhost IDENTIFIED BY 'password';
      GRANT SELECT ON sqlandjava.people TO super@localhost;
